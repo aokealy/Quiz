@@ -25,6 +25,28 @@ body {
     padding: 2rem;
     width: 100%;
 }
+.correct {
+    background: linear-gradient rgba( rgb(14, 206, 14) 0%, rgb(41, 232, 111) 100%);
+}
+.incorrect {
+    background: linear-gradient rgba( rgb(234, 25, 25) 0%, rgb(224, 11, 11, 1) 100%);
+}
+
+/* head's up display */ 
+#hud {
+    display: flex;
+    justify-content: space-between;
+
+}
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
 
 @media screen and (max-width: 768px) {
     .choice-container {
